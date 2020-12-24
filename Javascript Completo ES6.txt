@@ -1,0 +1,256 @@
+
+
+ ======== ORIGAMID - Javascript Completo ES6 =========
+ 
+ 
+ 
+ 
+ --- JAVASCRIPT COMPLETO ES6+ ---- 
+ 
+ 
+ -> O Curso
+ 
+  - Apresentado a grade do curso e o projeto final 
+  
+  - Link slides do curso: https://www.origamid.com/slide/javascript-completo-es6/
+  
+  
+ -> A Linguagem
+ 
+   - Usado no front-end, back-end e jogos
+   
+ 
+ -> VSCode, Node e Git
+ 
+   - Configurado o ambiente com node, vscode e git
+   
+ 
+ 
+ 
+ 
+ --- JAVASCRIPT PARA INICIANTES ---- 
+ 
+ 
+ -> Variáveis
+ 
+  - Existe os tipos var, let e const
+  
+  - Para nomear variáveis em js usar o modelo CamelCase: abriModal 
+ 
+  - Hosting: declara as variáveis na parte de cima do código, mesmo que declare no meio do código
+  
+  - Const não altera o seu valor
+  
+  
+ -> Tipos de Dados
+
+  - São 7 tipos de dados:
+  
+	var nome = 'André'; // String
+	var idade = 28; // Number
+	var possuiFaculdade = true; // Boolean
+	var time; // Undefined
+	var comida = null; // Null
+	var simbolo = Symbol() // Symbol
+	var novoObjeto = {} // Object
+
+  - Typeof verifica qual o tipo da variável
+ 
+  
+ -> Números e Operadores
+
+  - Possui os operadores da matemaica como +, /, *, -,  **(expoente) e % (modulo)
+ 
+  - NaN retorna verdadeiro quando não é um número 
+  
+  - Colocando + ou - na frente de um String que tenha um número, converte em número negativo ou positivo
+  
+  
+ -> Boolean e Condicionais
+
+  - Verifica condições verdadeiro e falso
+  
+  - Expressões com &&: retorna o ÚLTIMO verdadeiro ou o PRIMEIRO falso
+  
+  - Expressões com ||: retorna o PRIMEIRO verdadeiro
+  
+  
+ -> Funções 
+ 
+  - A função com os parentes () já retorna o valor da função
+  
+  - As funções podem ser executadas no console do navegador, digitando so nome da função, aparece o Objeto da função, com os parenteses o retorno
+  
+  - Quando não define retorno na função, retorna undefined
+  
+  - Hoisting acontece para funções, move para cima do escopo (memória)
+  
+  
+ -> Objetos
+
+  - Tem chave e valor
+  
+  - Pode ter argumentos e funções anônimas
+  
+  - Usar this para acessar variáveis ou funções dentro do objeto
+  
+  - O console e o Math são Objetos e tem vários metodos para utilizar. Ex: console.log(), console.table(), Math.PI, Math.random()
+  
+  - Para criar um objeto basta utilizar {}. Ex: var nomes = {}
+  
+  - Após criado o objeto, pode-se adicionar variáveis e metodos 
+  
+
+ -> Tudo é Objeto
+ 
+  - Strings, objetos, boolean e numbers possuem propriedades e métodos
+  
+ 
+ -> Arrays e Loops
+ 
+  - Guarda diferentes valores em uma variável
+
+  - O método Pop remove o último item do array, o Push adiciona um item ao final do array
+  
+  - Mostrado usos do for, while e foreach
+  
+  
+ -> Atribuição e Ternário
+ 
+  - Usar os operadores aritiméticos como += por exemplo
+  
+  - Ternário é usado a condição em uma linha
+  
+ 
+ -> Escopo
+ 
+  - variáveis acessadas dentro de funções não são visivéis fora
+  
+  - Utilizar 'use strict' força o js definir se a variável é var, const ou let 
+  
+  - Nos blocos de condicionais o var 'vaza' do escopo, por isso usar let ou const
+  
+  - Com duas {} cria um bloco fechado para declarar variáveis e funções
+  
+  - O const impede de mudar o valor em variável, mas deixa mudar em atributos de objetos
+  
+  - O let permite alterar o valor da variável
+  
+  
+  * IMPORTANTE: não usar var nos código, usar let e const pelas melhorias do ES6 em diante
+  
+ 
+ 
+ 
+ 
+ --- DOM PARA INICIANTES ---- 
+ 
+ 
+ -> O que é o DOM
+ 
+  - Propriedade window para acessar o DOM
+  
+  - O window é um objeto global do DOM
+  
+  - Tem propriedades e métodos de todos os elementos HTML (Node)
+  
+  - Digitar window no console para ver suas propriedades e métodos
+  
+  - 29380001 senha antiga: 20d476f9db492754c16c2dcbc821e2a9
+  
+  
+ -> Seleção de Elementos
+  
+  - Iniciado o projeto do site 'Animais Fantásticos'
+  
+  - Seleção de elementos por ID e por classe
+  
+  - HTMLCollection (document.getElementsByClassName) pega os itens modificados em tempo real no DOM e o NodeList (document.querySelectorAll) é estático, não busca 
+  os itens atualizados
+  
+  
+ -> forEach e Arrow Function
+  
+  - No forEach é sempre passada uma função como parâmetro. É um método de arrays
+  
+  - Array Function é uma função encurtada
+  
+	
+ -> Classes e Atributos
+
+  - Retorna uma lista de classses de um elemento
+  
+  
+ -> Dimensões e Distâncias
+ 
+  - Pega os width e height dos elementos
+ 
+
+ -> Eventos 
+
+  - Por padrão é melhor declarar a função fora do evento e depois chama ela como parâmetro
+  
+  - Quando passa a função com parâmetros tu já ativa ela, o melhor é passar só o nome sem os parenteses para ativar ela
+  
+  - Quando passar o 'e' ou o 'event' como parâmetro ele pega o evento e as propriedades correspondentes
+  
+  
+ -> Transversing e Manipulação
+
+  - Pode pegar conteúdo em texto ou html do elemento
+  
+  - Transversing é modo de navegar pelo DOM
+  
+  
+ -> Navegação por Tabs
+
+  - Controlando o acesso do conteúdo do site quando clica nas imagens dos animais
+ 
+ 
+ -> Accordion List
+
+  - Feito uma navegação com accordion para o menu do FAQ
+  
+  
+ -> Scroll Suave Link Interno
+ 
+  - Pega os links internos da página e aplica scroll suave quando redireciona eles
+  
+
+ -> Animação ao Scroll
+ 
+  - Anima quando movimenta o scroll
+  
+ 
+ 
+ --- OBJETOS ---- 
+ 
+ 
+ -> Constructor Function  
+ 
+  - São responsáveis por criar novos objetos
+  
+  
+ -> Prototype
+ 
+  - É um objeto atrelado a uma função quando criada
+  
+  - Para saber os métodos e propriedades para acessar saber o que está sendo retornado
+  
+  
+ -> Native, Host e User
+ 
+  - Native são os objetos nativos da linguagem
+  
+  - O jQuery foi criado para resolver a inconsistência dos browsers (versões diferentes do javascript) 
+  
+
+ -> String
+ 
+  - 
+  
+  - 
+
+ -> Number e Math
+
+ 
