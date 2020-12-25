@@ -235,7 +235,7 @@
  
   - É um objeto atrelado a uma função quando criada
   
-  - Para saber os métodos e propriedades para acessar saber o que está sendo retornado
+  - Para saber os métodos e propriedades para acessar deve-se saber o que está sendo retornado
   
   
  -> Native, Host e User
@@ -247,10 +247,11 @@
 
  -> String
  
-  - 
+  - É a construtora de String, possui as propriedades e métoos do prototype de String
   
-  - 
+  - Utilizado os métodos da String 
+  
 
  -> Number e Math
 
- 
+  - 
