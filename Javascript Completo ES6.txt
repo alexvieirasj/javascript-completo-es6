@@ -254,4 +254,25 @@
 
  -> Number e Math
 
+  - Funções com numbers e Math
+  
+
+ -> Array
+ 
   - 
+ 
+ -> Array e Iteração
+  
+  - 
+  
+ -> Function
+ 
+  - 
+  
+  
+ -> Object
+
+ - 
+ 
+ 
+ 
