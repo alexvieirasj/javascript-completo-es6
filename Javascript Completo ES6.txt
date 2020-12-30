@@ -259,7 +259,8 @@
 
  -> Array
  
-  - 
+  - Manipulação de array no javascript
+  
  
  -> Array e Iteração
   
@@ -274,5 +275,12 @@
 
  - 
  
+ 
+ 
+ férias: 
+ 
+ 1 a 15 fevereiro
+ 
+ 15 a 29 de março
  
  
