@@ -1,2 +1,2 @@
 # javascript-completo-es6
-Curso completo de JavaScript ES6 + da Origamid, curso em progresso (estudando no momento)
+Curso completo de JavaScript ES6 + da Origamid, curso em progresso (65% concluído)
