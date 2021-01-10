@@ -264,7 +264,8 @@
  
  -> Array e Iteração
   
-  - 
+  - Abordado os métodos de iteração com os arrays
+  
   
  -> Function
  
