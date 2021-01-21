@@ -269,7 +269,7 @@
   
  -> Function
  
-  - 
+  - Trabalhando com funções e argumentos para trabalhar com elas
   
   
  -> Object
