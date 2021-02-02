@@ -278,6 +278,37 @@
   
  
  
+ --- EFEITOS NO DOM ---- 
+ 
+ 
+ -> Dataset 
+ 
+  - Criar elementos diretamente no HTML para controle com javascript
+  
+  
+ -> Modules
+   
+  - Organizar código em módulos, mais fácil para dar manutenção
+  
+  - Cria modulos para as funçoes js, exportando elas, como em vue.js
+  
+  - Pode importar vários nomes de funções em um mesmo import referentes a um arquivo
+  
+  - Pode ser exportado também, constantes, objetos, strings, etc ...
+  
+  - Utilizar o 'use strict' para controlar erros na construção de códigos javascript 
+ 
+ 
+ -> Modal
+ 
+  - Criado um modal com um formulário para fazer login no site
+
+  - Feito com css e javascript puro
+  
+   
+ -> Tooltip 
+ 
+ 
  
  
  
